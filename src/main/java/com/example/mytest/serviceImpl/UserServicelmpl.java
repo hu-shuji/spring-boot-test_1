@@ -1,5 +1,5 @@
 
-package com.example.mytest.servicelmpl;
+package com.example.mytest.serviceImpl;
 
 import com.example.mytest.bean.UserBean;
 import com.example.mytest.mapper.UserMapper;
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserServicelmpl implements UserService {
+public class UserServiceImpl implements UserService {
 
     //将DAO注入Service层
     @Autowired
